@@ -1,0 +1,10 @@
+
+body {
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    grid-template:
+      "messages" 1fr
+      "input" auto
+      "keyboard" env(keyboard-inset-height, 0px);
+  }
